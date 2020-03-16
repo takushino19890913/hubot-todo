@@ -55,6 +55,11 @@ ansi-styles@^2.2.1:
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
   integrity sha1-tDLdM1i2NM914eRmQ2gkBTPB3b4=
 
+argvee@~0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/argvee/-/argvee-0.1.1.tgz#d90e87a4429d1e8a3a73e638a242fbea5cf60cb3"
+  integrity sha1-2Q6HpEKdHoo6c+Y4okL76lz2DLM=
+
 array-flatten@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-1.1.1.tgz#9a5f699051b1e7073328f2a008968b64ea2955d2"
@@ -358,6 +363,11 @@ extsprintf@^1.2.0:
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
 
+eyehurt@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/eyehurt/-/eyehurt-0.0.1.tgz#a157b04fa6aca88b1e3171bbb2fba8089c1c63f2"
+  integrity sha1-oVewT6asqIseMXG7svuoCJwcY/I=
+
 eyes@0.1.x:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/eyes/-/eyes-0.1.8.tgz#62cf120234c683785d902348a800ef3e0cc20bc0"
@@ -443,6 +453,11 @@ has-ansi@^2.0.0:
   integrity sha1-NPUEnOHs3ysGSa8+8k5F7TVBbZE=
   dependencies:
     ansi-regex "^2.0.0"
+
+homepath@~1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/homepath/-/homepath-1.0.1.tgz#a8367abb0632fbe0de6f97b542803fe7426bc6dd"
+  integrity sha1-qDZ6uwYy++Deb5e1QoA/50Jrxt0=
 
 http-errors@1.7.2:
   version "1.7.2"
@@ -685,6 +700,11 @@ ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
+ms@~0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-0.6.2.tgz#d89c2124c6fdc1353d65a8b77bf1aac4b193708c"
+  integrity sha1-2JwhJMb9wTU9Zai3e/GqxLGTcIw=
+
 multiparty@~4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/multiparty/-/multiparty-4.2.1.tgz#d9b6c46d8b8deab1ee70c734b0af771dd46e0b13"
@@ -819,6 +839,11 @@ redis@^2.7.1:
     redis-commands "^1.2.0"
     redis-parser "^2.6.0"
 
+refractory@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/refractory/-/refractory-0.0.3.tgz#8d2f8209d3836bf1f47b1cc2e81367b914fbf0d5"
+  integrity sha1-jS+CCdODa/H0exzC6BNnuRT78NU=
+
 request@^2.85.0:
   version "2.88.2"
   resolved "https://registry.yarnpkg.com/request/-/request-2.88.2.tgz#d73c918731cb5a87da047e207234146f664d12b3"
@@ -941,8 +966,16 @@ supports-color@^2.0.0:
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
   integrity sha1-U10EXOa2Nj+kARcIRimZXp3zJMc=
 
-todo@../todo:
-  version "1.0.0"
+todo@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/todo/-/todo-1.1.0.tgz#47658e84f9723dc289dbb719830bf6504b31e0f4"
+  integrity sha1-R2WOhPlyPcKJ27cZgwv2UEsx4PQ=
+  dependencies:
+    argvee "~0.1.1"
+    eyehurt "0.0.1"
+    homepath "~1.0.0"
+    ms "~0.6.2"
+    refractory "0.0.3"
 
 toidentifier@1.0.0:
   version "1.0.0"
