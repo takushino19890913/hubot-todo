@@ -21,7 +21,7 @@
     "todo": "../todo"
   },
   "engines": {
-    "node": "10.14.2"
+    "node": "12.16.1"
   },
   "main": "todo.js",
   "repository": "git@github.com:takushino19890913/tksntodo.git",
